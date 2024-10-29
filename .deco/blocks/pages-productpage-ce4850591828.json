@@ -29,7 +29,12 @@
         "__resolveType": "site/sections/Product/ProductDetails.tsx",
         "page": {
           "__resolveType": "vtex/loaders/intelligentSearch/productDetailsPage.ts",
-          "similars": false
+          "similars": true,
+          "indexingSkus": true,
+          "slug": {
+            "__resolveType": "website/functions/requestToParam.ts",
+            "param": "slug"
+          }
         }
       }
     },
