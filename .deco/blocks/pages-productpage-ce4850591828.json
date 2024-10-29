@@ -28,7 +28,8 @@
       "section": {
         "__resolveType": "site/sections/Product/ProductDetails.tsx",
         "page": {
-          "__resolveType": "vtex/loaders/intelligentSearch/productDetailsPage.ts"
+          "__resolveType": "vtex/loaders/intelligentSearch/productDetailsPage.ts",
+          "slug": ":slug"
         }
       }
     },
