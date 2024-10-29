@@ -55,9 +55,9 @@
         "products": {
           "__resolveType": "vtex/loaders/intelligentSearch/productList.ts",
           "props": {
-            "sort": "price:asc",
-            "collection": "137",
-            "count": 6
+            "sort": "orders:desc",
+            "count": 6,
+            "collection": "137"
           }
         }
       }
