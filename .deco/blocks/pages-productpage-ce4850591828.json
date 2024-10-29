@@ -1,6 +1,6 @@
 {
   "name": "Product Page",
-  "path": "/products/:slug",
+  "path": "/produto/:slug",
   "default": {
     "possiblePaths": []
   },
@@ -32,7 +32,8 @@
             "__resolveType": "website/functions/requestToParam.ts",
             "param": "slug"
           },
-          "similars": false
+          "similars": false,
+          "__resolveType": "vtex/loaders/intelligentSearch/productDetailsPage.ts"
         }
       }
     },
