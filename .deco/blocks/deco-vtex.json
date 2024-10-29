@@ -10,7 +10,7 @@
   },
   "platform": "vtex",
   "account": "dcione",
-  "publicUrl": "decocx.lojabasica.com",
+  "publicUrl": "https://decocx.lojabasica.com",
   "appKey": {
     "__resolveType": "website/loaders/secret.ts",
     "encrypted": "272063604e45f4dfc8387ef9f329d0963bb964763498e8688aaec97bdbc827ee"

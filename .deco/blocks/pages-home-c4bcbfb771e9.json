@@ -53,7 +53,12 @@
         "title": "Featured Products",
         "cta": "/mono",
         "products": {
-          "__resolveType": "Product List Loader"
+          "__resolveType": "vtex/loaders/intelligentSearch/productList.ts",
+          "props": {
+            "sort": "price:desc",
+            "count": 6,
+            "collection": "137"
+          }
         }
       }
     },
