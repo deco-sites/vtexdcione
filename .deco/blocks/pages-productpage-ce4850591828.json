@@ -44,17 +44,12 @@
         "__resolveType": "site/sections/Product/ProductShelf.tsx",
         "title": "You may also like",
         "products": {
-          "__resolveType": "shopify/loaders/ProductList.ts",
+          "__resolveType": "vtex/loaders/intelligentSearch/productList.ts",
           "props": {
-            "sort": "",
-            "query": "a",
-            "count": 9
-          },
-          "filters": {
-            "tags": [],
-            "productTypes": [],
-            "productVendors": [],
-            "variantOptions": []
+            "sort": "orders:desc",
+            "query": "137",
+            "count": 9,
+            "fuzzy": "automatic"
           }
         }
       }
