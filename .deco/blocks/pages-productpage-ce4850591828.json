@@ -28,10 +28,6 @@
       "section": {
         "__resolveType": "site/sections/Product/ProductDetails.tsx",
         "page": {
-          "slug": {
-            "__resolveType": "website/functions/requestToParam.ts",
-            "param": "slug"
-          },
           "__resolveType": "vtex/loaders/intelligentSearch/productDetailsPage.ts"
         }
       }
