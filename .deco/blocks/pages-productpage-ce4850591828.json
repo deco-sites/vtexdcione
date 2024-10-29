@@ -31,9 +31,7 @@
           "slug": {
             "__resolveType": "website/functions/requestToParam.ts",
             "param": "slug"
-          },
-          "similars": false,
-          "__resolveType": "vtex/loaders/intelligentSearch/productDetailsPage.ts"
+          }
         }
       }
     },
